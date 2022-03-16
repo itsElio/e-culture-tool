@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:listSelector="@android:color/transparent"
+    >
+
+    <TextView
+        android:id="@+id/NomeZona"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_toLeftOf="@+id/museoPunto"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:paddingTop="5dp"
+        android:paddingEnd="10dp"
+        android:text="nome museo"
+        android:textAlignment="textEnd"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/museoPunto"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+
+        android:background="@drawable/circle"
+
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/museoLinea"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@+id/NomeZona"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/linea_riepilogo_1"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+</RelativeLayout>
+

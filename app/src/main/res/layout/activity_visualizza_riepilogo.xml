@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            app:titleTextColor="@color/white"
+            android:minHeight="?attr/actionBarSize"
+            app:title="@string/barra_riepilogo_percorso" >
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+<LinearLayout
+android:id="@+id/linearLayout"
+android:layout_width="match_parent"
+android:layout_height="60dp"
+android:orientation="horizontal"
+app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+tools:ignore="MissingConstraints">
+
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/circle"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/testoStep1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/myImageView"
+        android:layout_alignTop="@+id/myImageView"
+        android:layout_alignEnd="@+id/myImageView"
+        android:layout_alignBottom="@+id/myImageView"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#000"
+        android:visibility="invisible"
+        tools:ignore="RtlHardcoded" />
+
+</RelativeLayout>
+
+<ImageView
+    android:id="@+id/lineBar1"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10"
+    android:src="@drawable/line_for_step_bar"
+    android:visibility="invisible"
+    tools:ignore="ContentDescription" />
+
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10">
+
+    <ImageView
+        android:id="@+id/myImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:src="@drawable/circle"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+    <TextView
+        android:id="@+id/testoStep2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/myImageView2"
+        android:layout_alignTop="@+id/myImageView2"
+        android:layout_alignEnd="@+id/myImageView2"
+        android:layout_alignBottom="@+id/myImageView2"
+        android:gravity="center"
+        android:text="2"
+        android:textColor="#000"
+        android:visibility="invisible"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>
+
+<ImageView
+    android:id="@+id/lineBar2"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10"
+    android:src="@drawable/line_for_step_bar"
+    android:visibility="invisible"
+    tools:ignore="ContentDescription" />
+
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10">
+
+    <ImageView
+        android:id="@+id/myImageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:src="@drawable/circle"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+    <TextView
+        android:id="@+id/testoStep3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/myImageView3"
+        android:layout_alignTop="@+id/myImageView3"
+        android:layout_alignEnd="@+id/myImageView3"
+        android:layout_alignBottom="@+id/myImageView3"
+        android:gravity="center"
+        android:text="3"
+        android:textColor="#000"
+        android:visibility="invisible"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>
+
+<ImageView
+    android:id="@+id/lineBar3"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10"
+    android:src="@drawable/line_for_step_bar"
+    android:visibility="invisible"
+    tools:ignore="ContentDescription" />
+
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10">
+
+    <ImageView
+        android:id="@+id/myImageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:contentDescription=""
+        android:src="@drawable/circle"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+    <TextView
+        android:id="@+id/testoStep4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/myImageView4"
+        android:layout_alignTop="@+id/myImageView4"
+        android:layout_alignEnd="@+id/myImageView4"
+        android:layout_alignBottom="@+id/myImageView4"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="#000"
+        android:visibility="invisible"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>
+
+<ImageView
+    android:id="@+id/lineBar4"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10"
+    android:contentDescription=""
+    android:src="@drawable/line_for_step_bar"
+    android:visibility="invisible"
+    tools:ignore="ContentDescription" />
+
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight=".10">
+
+    <ImageView
+        android:id="@+id/myImageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:contentDescription=""
+        android:src="@drawable/circle"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+    <TextView
+        android:id="@+id/testoStep5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/myImageView5"
+        android:layout_alignTop="@+id/myImageView5"
+        android:layout_alignEnd="@+id/myImageView5"
+        android:layout_alignBottom="@+id/myImageView5"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="#000"
+        android:visibility="invisible"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/titoloRiepilogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/riepilogo_percorso"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+    <Button
+        android:id="@+id/buttonModifica"
+        android:layout_width="125dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/modifica"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/riepilogo"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <ListView
+        android:id="@+id/riepilogo"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titoloRiepilogo"
+        tools:ignore="MissingConstraints" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

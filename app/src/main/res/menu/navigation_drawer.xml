@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+    </group>
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="@string/menu_search" />
+        <item
+            android:id="@+id/menu_QRScanner"
+            android:icon="@drawable/ic_baseline_qr_code_24"
+            android:title="@string/menu_QRScanner" />
+        <item
+            android:id="@+id/menu_museumRegistration"
+            android:icon="@drawable/ic_baseline_add_24"
+            android:title="@string/menu_museumRegistration"
+            android:visible="false" />
+    </group>
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@drawable/ic_baseline_power_settings_new_24"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

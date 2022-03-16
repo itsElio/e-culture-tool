@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">E-Culture Tool Bakers</string>
+
+    <string name="campo_richiesto">Mandatory field</string>
+    <string name="luogo_culturale">Culturale place</string>
+    <string name="avanti">Next</string>
+    <string name="barra_seleziona_museo">Choose culturale place</string>
+    <string name="info_percorso">Route info</string>
+    <string name="dai_un_nome_al_percorso">Route name:</string>
+    <string name="nome_del_percoroso">route name</string>
+    <string name="seleziona_percorso_da_creare">Choose route type:</string>
+    <string name="percorso_semplice">Simple Route</string>
+    <string name="percorso_complesso">Complex Route</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="nome_troppo_lungo">Name too long</string>
+    <string name="barra_seleziona_zona">Zone selection</string>
+    <string name="seleziona_zona">Choose route zones</string>
+    <string name="seleziona_zona_hint">Hold down a zone and use the arrows to move it</string>
+    <string name="barra_seleziona_opere">Choose objects</string>
+    <string name="seleziona_zona1">Choose zone</string>
+    <string name="barra_riepilogo_percorso">Route recap</string>
+    <string name="riepilogo_percorso">Route recap:</string>
+    <string name="modifica">Edit:</string>
+    <string name="museo_non_presente">Place not present, choose from clickable places</string>
+    <string name="perc_semplice_hint">With the simple route, you can only visit each zone once.</string>
+    <string name="perc_complesso_hint">With the complex route, you can only visit each zone multiple times.</string>
+    <string name="chiudi">Close</string>
+    <string name="zone_rivisitare">Choose zone to revisit</string>
+    <string name="zone_aggiungere">Choose zones to add</string>
+    <string name="nessuna_zona">No zone to add</string>
+    <string name="annulla">Cancel</string>
+
+    <string name="dettagli">Details </string>
+    <string name="opere_aggiungere">Choose objects to add</string>
+    <string name="modifica_dati">Edit</string>
+
+    <string name="permesso_scrittura">If you do not accept the permission, you will not be able to save the route file!</string>
+    <string name="permesso_scrittura_req1">Permission request</string>
+    <string name="permesso_scrittura_req2">This permission is necessary in order to save the route</string>
+    <string name="file_salvato">File saved in Download folder</string>
+    <string name="app_per_condividere_non_trovata">No sharing app was found</string>
+    <string name="percorso_cancellato">route deleted</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hintDescrizioneZona">Zone description</string>
+    <string name="btnFotoZona">Add zone picture</string>
+    <string name="btnModificaFotoZona">Edit zone picture</string>
+    <string name="conferma">Confirm</string>
+    <string name="hintNomeZona">Zone\'s name</string>
+    <string name="inserisciZonaTitle">Add a new zone</string>
+    <string name="nuovaZonaHint">Add a new zone by pressing + button</string>
+    <string name="selezionaZona">Select a zone</string>
+    <string name="nomeMuseo">Cultural place\'s name</string>
+    <string name="descrizioneMuseo">Cultural place\'s informations</string>
+    <string name="inserisciOpera">Create new object</string>
+    <string name="inserisciOperaTitle">Add a new object</string>
+    <string name="hintNomeOpera">Object\'s name</string>
+    <string name="hintDescrizioneOpera">Object\'s description</string>
+    <string name="btnFotoOpera">Add a picture of the object</string>
+    <string name="inserisciZona">Create new Zone</string>
+    <string name="modificaFotoOpera">Edit object\'s picture</string>
+    <string name="modificaOperaTitolo">Edit an object</string>
+    <string name="registrazioneMuseo">Create new cultural place</string>
+    <string name="registrazioneMuseoTitle">Add cultural place\'s informations</string>
+    <string name="nuovaOperaHint">Add a new object by pressing + button</string>
+    <string name="riepilogoZoneTitle">Cultural place\'s zones</string>
+    <string name="modificaOpera">Edit the selected object</string>
+    <string name="riepilogoOpere">Objects summary</string>
+    <string name="riepilogoOpereTitle">Select a zone where to add an object</string>
+    <string name="riepilogoZone">Zones summary</string>
+    <string name="tipoMuseo">Cultural place\'s kind (ex: Archeological museum, Art museum ...)</string>
+    <string name="cambiaLingua">Switch language to italian</string>
+    <string name="lingua">Switch language</string>
+    <string name="iniziaRegistrazione">Create new cultural place</string>
+    <string name="modificaZonaTitolo">Edit a zone</string>
+    <string name="modificaFotoZona">Edit zone picture</string>
+
+
+    <string name="menu_logout">Logout</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_museumRegistration">Register place</string>
+    <string name="header_guest">Guest</string>
+    <string name="toast_logout">Logout completed</string>
+    <string name="toast_registrationSucc">Successful registration</string>
+    <string name="toast_registrationFail">Unsuccessful registration. Try again</string>
+    <string name="torna_home">Go back home</string>
+    <string name="menu_home">Home - Paths</string>
+    <string name="button_login">Sign in</string>
+    <string name="text_registration">Sign up</string>
+    <string name="text_welcome">Welcome to E-Culture Tools!</string>
+    <string name="inputText_email">Email address</string>
+    <string name="text_alreadyHaveAccount">I already have an account</string>
+    <string name="inputText_confirmPassword">Confirm password</string>
+    <string name="radio_vis">Visitor/Guide</string>
+    <string name="radio_cur">Curator</string>
+    <string name="text_guest">Sign in as guest</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_QRScanner">QR Scanner</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="settings_upload">Upload data</string>
+    <string name="settings_download">Download data</string>
+
+    <string name="loggati">Sign in in order to create a route</string>
+    <string name="scelta_app_condivisione_percorso">Choose which app you want to share the route with</string>
+    <string name="lista_opere">List of objects:</string>
+
+</resources>

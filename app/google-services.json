@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "303842137486",
+    "firebase_url": "https://e-culture-tool-c381c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "e-culture-tool-c381c",
+    "storage_bucket": "e-culture-tool-c381c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303842137486:android:69de11b9b61c726e9a40df",
+        "android_client_info": {
+          "package_name": "com.example.e_culturetoolbakers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303842137486-2sp7jr1h4pctsvphec1iqojn3l310eaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABeYl-Wb-Xxmj09dJALKuxr584kGG-hSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303842137486-2sp7jr1h4pctsvphec1iqojn3l310eaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

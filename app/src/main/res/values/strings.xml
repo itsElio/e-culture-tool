@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">E-Culture Tool Bakers</string>
+
+    <string name="campo_richiesto">Campo richiesto</string>
+    <string name="luogo_culturale">Luogo culturale</string>
+    <string name="barra_seleziona_museo">Seleziona luogo culturale</string>
+    <string name="avanti">Avanti</string>
+    <string name="info_percorso">Informazioni percorso</string>
+    <string name="dai_un_nome_al_percorso">Dai un nome al percorso:</string>
+    <string name="nome_del_percoroso">nome del percorso</string>
+    <string name="seleziona_percorso_da_creare">Seleziona il tipo di percorso:</string>
+    <string name="percorso_semplice">Percorso Semplice</string>
+    <string name="percorso_complesso">Percorso Complesso</string>
+    <string name="nome_troppo_lungo">Nome troppo lungo</string>
+    <string name="lorem_ipsum">lorem ipsum</string>
+    <string name="barra_seleziona_zona">Selezione zone</string>
+    <string name="seleziona_zona">Seleziona le zone del percorso</string>
+    <string name="seleziona_zona_hint">Tieni premuto su una zona e usa le frecce per spostarla</string>
+    <string name="barra_seleziona_opere">Selezione oggetti</string>
+    <string name="seleziona_zona1">Seleziona zona</string>
+    <string name="barra_riepilogo_percorso">Riepilogo percorso</string>
+    <string name="riepilogo_percorso">Riepilogo percorso:</string>
+    <string name="modifica">Modifica:</string>
+    <string name="museo_non_presente">Luogo non presente, scegli tra quelli cliccabili</string>
+    <string name="perc_semplice_hint">Con questo percorso puoi visitare ogni zona solo una volta.</string>
+    <string name="perc_complesso_hint">Con il percorso complesso puoi visitare ciascuna zona più volte.</string>
+    <string name="chiudi">Chiudi</string>
+    <string name="zone_rivisitare">Seleziona zone da rivisitare</string>
+    <string name="zone_aggiungere">Seleziona zone da aggiungere</string>
+    <string name="nessuna_zona">Nessuna zona da aggiungere</string>
+    <string name="annulla">Annulla</string>
+    <string name="conferma">Conferma</string>
+    <string name="dettagli">Dettagli </string>
+    <string name="opere_aggiungere">Seleziona oggetti da aggiungere</string>
+    <string name="modifica_dati">Modifica dati</string>
+    <string name="modificaOperaTitolo">Modifica un\'opera</string>
+    <string name="hintNomeOpera">Nome dell\'opera</string>
+    <string name="hintDescrizioneOpera">Descrizione dell\'opera</string>
+    <string name="modificaFotoOpera">Modifica foto dell\'opera</string>
+    <string name="permesso_scrittura">Se non accetti il permesso non potrai salvare il file del percorso!</string>
+    <string name="permesso_scrittura_req1">Richiesta permesso</string>
+    <string name="permesso_scrittura_req2">Questo permesso è neccessario per poter salvare il percorso</string>
+    <string name="file_salvato">File salvato nella cartella Donwload</string>
+    <string name="app_per_condividere_non_trovata">Non è stata trovata un\'app per la condivisione.</string>
+    <string name="percorso_cancellato">Percorso cancellato</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inserisciOpera">Inserimento opera</string>
+    <string name="inserisciOperaTitle">Inserisci un\'opera</string>
+
+    <string name="btnFotoOpera">Aggiungi foto dell\'opera</string>
+    <string name="inserisciZona">Inserimento zona</string>
+
+    <string name="inserisciZonaTitle">Inserisci una zona</string>
+    <string name="hintNomeZona">Nome della zona</string>
+    <string name="hintDescrizioneZona">Descrizione della zona</string>
+    <string name="btnFotoZona">Aggiungi foto della zona</string>
+    <string name="btnModificaFotoZona">Modifica foto della zona</string>
+
+
+    <string name="modificaOpera">Modifica opera</string>
+
+    <string name="registrazioneMuseo">Registrazione museo</string>
+    <string name="registrazioneMuseoTitle">Inserisci le informazioni del luogo culturale</string>
+
+    <string name="nomeMuseo">Nome del luogo culturale</string>
+    <string name="descrizioneMuseo">Informazioni sul luogo culturale</string>
+    <string name="tipoMuseo">Tipo di luogo culturale (es. Museo Archeologico, Arte...)</string>
+
+    <string name="riepilogoOpere">Riepilogo opere</string>
+
+    <string name="riepilogoOpereTitle">Seleziona una zona in cui inserire un\'opera</string>
+    <string name="nuovaOperaHint">Inserisci una nuova opera premendo il tasto +</string>
+    <string name="selezionaZona">Seleziona una zona</string>
+
+    <string name="riepilogoZone">Riepilogo zone</string>
+    <string name="riepilogoZoneTitle">Zone del luogo culturale</string>
+    <string name="nuovaZonaHint">Inserisci una nuova zona premendo il tasto +</string>
+
+    <string name="cambiaLingua">Passa a lingua inglese</string>
+    <string name="lingua">Cambia lingua</string>
+    <string name="iniziaRegistrazione">Registra un nuovo museo</string>
+
+
+    <string name="button_login">Accedi</string>
+    <string name="text_registration">Registrati</string>
+    <string name="text_welcome">Benvenuto in E-Culture Tools!</string>
+    <string name="inputText_password" translatable="false">Password</string>
+    <string name="inputText_email">Indirizzo Email</string>
+    <string name="inputText_username" translatable="false">Username</string>
+    <string name="text_alreadyHaveAccount">Ho già un account</string>
+    <string name="inputText_confirmPassword">Conferma password</string>
+    <string name="radio_vis">Visitatore/Guida</string>
+    <string name="radio_cur">Curatore</string>
+    <string name="text_guest">Accedi come ospite</string>
+    <string name="menu_search">Ricerca</string>
+    <string name="menu_QRScanner">Scanner QR</string>
+    <string name="menu_settings">Impostazioni</string>
+
+    <string name="menu_museumRegistration">Registra museo/luogo</string>
+    <string name="menu_home">Home - Percorsi</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_login">Login</string>
+    <string name="header_guest">Ospite</string>
+    <string name="toast_logout">Logout effettuato</string>
+    <string name="toast_registrationSucc">Registrazione avvenuta con successo</string>
+    <string name="toast_registrationFail">Registrazione non avvenuta. Prova nuovamente</string>
+    <string name="settings_upload">Carica dati</string>
+    <string name="settings_download">Scarica dati</string>
+    <string name="torna_home">Torna alla Home</string>
+
+    <string name="modificaZonaTitolo">Modifica una zona</string>
+    <string name="modificaFotoZona">Modifica foto della zona</string>
+
+    <string name="loggati">Per creare un percorso devi registrarti</string>
+    <string name="scelta_app_condivisione_percorso">Scegli con quale app condividere il percorso</string>
+    <string name="lista_opere">Lista opere:</string>
+
+</resources>
